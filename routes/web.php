@@ -21,4 +21,4 @@ Route::get('/', function () {
 //     return view('welcome');
 // });
 
-Route::get('pages/home', 'TestController@home');
+Route::get('home', 'TestController@home');
