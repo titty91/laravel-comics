@@ -9,7 +9,10 @@
 <ul>
     @foreach ($data as $d)
         <li>
-            <div>{{ $d['title'] }}
+            <div>
+                <a href="{{route('comix-dettagli')}}">
+                    {{ $d['title'] }}
+                </a>
 
                 <div>
                    <img src=" {{ $d['thumb'] }}" alt="">

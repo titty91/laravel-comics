@@ -22,3 +22,5 @@ Route::get('/', function () {
 // });
 
 Route::get('home', 'TestController@home');
+
+Route::get('/home2/{id}', 'TestController@home2') -> name('comix-dettagli')

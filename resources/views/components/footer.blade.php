@@ -1,0 +1,4 @@
+<footer>
+
+    follow us
+</footer>
