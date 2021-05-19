@@ -8,7 +8,7 @@ class TestController extends Controller
 {
     public function home()
     {
-        $name = "Tiziana";
+        $name = "Current Series";
 
         $data = [
             [

@@ -1,14 +1,26 @@
 
     header {
+
+        background-color: #ffffff;
+        color: #1c1c1c;
         
         ul li{
             list-style: none;
             display: inline-block;
+            padding-right: 10px;
+
+            img {
+                width: 80px;
+                height: 80px;
+                flex-basis: auto;
+           }
+
         }
+
+
 
         .center{
             width: 80%;
-            background-color: yellow;
             margin: auto;
         }
 

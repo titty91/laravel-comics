@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Layout Test - Blade</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
-  </head>
+    <link rel="stylesheet" href="{{ asset('/css/main.css') }}">
+</head>
 <body>
   @include('components.header')
   @yield('content')
