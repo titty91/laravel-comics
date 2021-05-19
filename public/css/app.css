@@ -15,14 +15,28 @@ header ul li img {
   flex-basis: auto;
 }
 
-header .center {
-  width: 80%;
-  margin: auto;
+footer {
+  background-color: black;
+}
+
+main img {
+  width: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #1c1c1c;
   color: white;
   font-family: "Dosis", sans-serif;
+}
+
+.center {
+  width: 80%;
+  margin: auto;
 }
 

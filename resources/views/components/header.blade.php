@@ -5,7 +5,7 @@
 
         <ul>
             <li>
-                <img src="{{ asset('/storage/assets/dc-logo.png') }}" alt=''>
+                <img src="{{ asset('/storage/images/dc-logo.png') }}" alt=''>
             </li>
 
             <li>

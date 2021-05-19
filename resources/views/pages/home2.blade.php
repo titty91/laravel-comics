@@ -2,10 +2,9 @@
 
 @section('content')
 {{ $comic ['title'] }}
-@endsection
 
-@section('content')
+
 <div>
-{{--<img src=" {{ $d['thumb'] }}" alt=""> --}}
+<img src=" {{ $comic['thumb'] }}" alt=""> 
  </div>
 @endsection

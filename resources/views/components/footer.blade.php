@@ -1,4 +1,3 @@
 <footer>
-
     follow us
 </footer>

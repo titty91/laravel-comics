@@ -1,16 +1,17 @@
 @extends('layouts.main-layout')
 @section('content')
+<main >
 <div>
-    <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">
+    <img src="{{ asset('/storage/images/jumbotron.jpg') }}" alt="">
 </div>
 
-<h1>{{$name}}</h1>
+<h1 class="center">{{$name}}</h1>
 
-<ul>
+<ul class="center">
     @foreach ($data as $d)
         <li>
             <div>
-                <a href="{{route('comix-dettagli')}}">
+                <a href="{{route('comix-dettagli',$loop->index )}}">
                     {{ $d['title'] }}
                 </a>
 
@@ -23,4 +24,5 @@
         </li>
     @endforeach
 </ul>
+</main>
 @endsection
