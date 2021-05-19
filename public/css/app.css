@@ -10,17 +10,41 @@ header ul li {
 }
 
 header ul li img {
-  width: 80px;
+  width: auto;
   height: 80px;
-  flex-basis: auto;
 }
 
 footer {
   background-color: black;
 }
 
-main img {
-  width: auto;
+main .jumbo {
+  background-image: url("/storage/images/jumbotron.jpg");
+  height: 100px;
+  background-size: cover;
+}
+
+main ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+main ul li {
+  list-style: none;
+}
+
+main ul li div.card {
+  background-color: blueviolet;
+}
+
+main ul li div.card div img {
+  height: 200px;
+}
+
+main ul li div.card a {
+  color: white;
+  text-decoration: none;
 }
 
 * {

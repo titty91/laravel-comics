@@ -1,3 +1,6 @@
 <footer>
-    follow us
+    <div class="center">
+        follow us
+    </div>
+
 </footer>
